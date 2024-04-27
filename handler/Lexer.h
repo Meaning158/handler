@@ -45,7 +45,6 @@ private:
 		{"Number","[0-9]+"},
 		{"Variable","[a-zA-Z]+"},
 		{"Semicolon","[;]"},
-		{"Space","[" "]"},
 		{"Assign","[=]"},
 		{"Console","console"},
 		{"Plus","[+]"},
