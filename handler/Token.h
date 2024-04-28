@@ -6,20 +6,18 @@
 class Token {
 public:
     Token() = default;
-    Token(const std::string& value, const TokenType& type) : value(value), type(type) {
-        pos = quantity;
-        ++quantity;
-    }
+    Token(const std::string& value, const TokenType& type, int line, int pos);
     virtual ~Token() {}
 
-    TokenType getTokenType();
-    std::string getTokenValue();
+    TokenType getTokenType() const;
+    std::string getTokenValue() const;
     int getTokenPos() const;
+    int getTokenLine() const;
 private:
     TokenType type;
     std::string value;
     int pos;
-    static inline unsigned quantity{};
+    int line;
 };
 
 

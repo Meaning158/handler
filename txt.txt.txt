@@ -1,2 +1,0 @@
-console;
-num name = (7+8)/2;

@@ -1,33 +1,36 @@
 ﻿// handler.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 #include <fstream>
-#include "Lexer.h"
 #include <iostream>
-#include "TokenType.h"
-#include "regex"
-#include "string"
+#include <regex>
+#include <string>
 #include <sstream>
 #include <vector>
+
+#include "TokenType.h"
+#include "Lexer.h"
+#include "Parser.h"
+
 int main()
 {
-    std::string line;
-    std::ifstream file;
-    Lexer a;
-    file.open("FileName.txt");
-    if (file.is_open())
-    {
-        std::cout << "file is open" << std::endl;
-        while (std::getline(file, line))
-        {
-           a.lexAnalysis(line);
-        }
-    }
-    else {
-        std::cout << "close";
-    }
-    for (auto& i : a.getVector()) {
-        std::cout << i.getTokenValue() << " " << i.getTokenType().getType() << std::endl;
-    }
-    file.close();
+	std::string line;
+	std::ifstream file;
+	file.open("FileName.txt");
+	std::string code;
+	if (file.is_open())
+	{
+		std::cout << "file is open" << std::endl;
+		while (std::getline(file, line))
+			code += line;
+		file.close();
+	}
+	else {
+		std::cout << "file is not open";
+	}
+	auto tokens = Lexer().lexAnalysis(code);
+	for (auto& i : tokens)
+		std::cout << i.getTokenValue() << " " << i.getTokenType() << std::endl;
+	auto tree = Parser().GenerateAST(tokens);
+	std::cout << "{" << tree << "}";
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

@@ -1,0 +1,244 @@
+{
+  "File node0": {
+    "Depth": "0",
+    "Value": "Program",
+    "Type": "Generic",
+    "Leaves": {
+      "Statement node0": {
+        "Depth": "1",
+        "Value": "Statement",
+        "Type": "Generic",
+        "Leaves": {
+          "Console node0": {
+            "Depth": "2",
+            "Value": "Console",
+            "Type": "Generic",
+            "Leaves": {
+              "Generic node0": {
+                "Depth": "3",
+                "Value": "console",
+                "Type": "Console",
+                "Leaves": {}
+              },
+              "Expression node1": {
+                "Depth": "3",
+                "Value": "Expression",
+                "Type": "Generic",
+                "Leaves": {
+                  "Value node0": {
+                    "Depth": "4",
+                    "Value": "Atom",
+                    "Type": "Generic",
+                    "Leaves": {
+                      "Generic node0": {
+                        "Depth": "5",
+                        "Value": "a",
+                        "Type": "Variable",
+                        "Leaves": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "Generic node1": {
+            "Depth": "2",
+            "Value": ";",
+            "Type": "Semicolon",
+            "Leaves": {}
+          }
+        }
+      },
+      "Statement node1": {
+        "Depth": "1",
+        "Value": "Statement",
+        "Type": "Generic",
+        "Leaves": {
+          "Expression node0": {
+            "Depth": "2",
+            "Value": "Expression",
+            "Type": "Generic",
+            "Leaves": {
+              "Value node0": {
+                "Depth": "3",
+                "Value": "Atom",
+                "Type": "Generic",
+                "Leaves": {
+                  "Generic node0": {
+                    "Depth": "4",
+                    "Value": "b",
+                    "Type": "Variable",
+                    "Leaves": {}
+                  }
+                }
+              },
+              "Generic node1": {
+                "Depth": "3",
+                "Value": "=",
+                "Type": "Assign",
+                "Leaves": {}
+              },
+              "Expression node2": {
+                "Depth": "3",
+                "Value": "Expression",
+                "Type": "Generic",
+                "Leaves": {
+                  "Value node0": {
+                    "Depth": "4",
+                    "Value": "Atom",
+                    "Type": "Generic",
+                    "Leaves": {
+                      "Generic node0": {
+                        "Depth": "5",
+                        "Value": "10",
+                        "Type": "Number",
+                        "Leaves": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "Generic node1": {
+            "Depth": "2",
+            "Value": ";",
+            "Type": "Semicolon",
+            "Leaves": {}
+          }
+        }
+      },
+      "Statement node2": {
+        "Depth": "1",
+        "Value": "Statement",
+        "Type": "Generic",
+        "Leaves": {
+          "Expression node0": {
+            "Depth": "2",
+            "Value": "Expression",
+            "Type": "Generic",
+            "Leaves": {
+              "Value node0": {
+                "Depth": "3",
+                "Value": "Atom",
+                "Type": "Generic",
+                "Leaves": {
+                  "Generic node0": {
+                    "Depth": "4",
+                    "Value": "c",
+                    "Type": "Variable",
+                    "Leaves": {}
+                  }
+                }
+              },
+              "Generic node1": {
+                "Depth": "3",
+                "Value": "=",
+                "Type": "Assign",
+                "Leaves": {}
+              },
+              "Expression node2": {
+                "Depth": "3",
+                "Value": "Expression",
+                "Type": "Generic",
+                "Leaves": {
+                  "Generic node0": {
+                    "Depth": "4",
+                    "Value": "(",
+                    "Type": "Lpar",
+                    "Leaves": {}
+                  },
+                  "Expression node1": {
+                    "Depth": "4",
+                    "Value": "Expression",
+                    "Type": "Generic",
+                    "Leaves": {
+                      "Value node0": {
+                        "Depth": "5",
+                        "Value": "Atom",
+                        "Type": "Generic",
+                        "Leaves": {
+                          "Generic node0": {
+                            "Depth": "6",
+                            "Value": "7",
+                            "Type": "Number",
+                            "Leaves": {}
+                          }
+                        }
+                      },
+                      "Generic node1": {
+                        "Depth": "5",
+                        "Value": "+",
+                        "Type": "Plus",
+                        "Leaves": {}
+                      },
+                      "Expression node2": {
+                        "Depth": "5",
+                        "Value": "Expression",
+                        "Type": "Generic",
+                        "Leaves": {
+                          "Value node0": {
+                            "Depth": "6",
+                            "Value": "Atom",
+                            "Type": "Generic",
+                            "Leaves": {
+                              "Generic node0": {
+                                "Depth": "7",
+                                "Value": "b",
+                                "Type": "Variable",
+                                "Leaves": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "Generic node2": {
+                    "Depth": "4",
+                    "Value": ")",
+                    "Type": "Rpar",
+                    "Leaves": {}
+                  },
+                  "Generic node3": {
+                    "Depth": "4",
+                    "Value": "/",
+                    "Type": "Division",
+                    "Leaves": {}
+                  },
+                  "Expression node4": {
+                    "Depth": "4",
+                    "Value": "Expression",
+                    "Type": "Generic",
+                    "Leaves": {
+                      "Value node0": {
+                        "Depth": "5",
+                        "Value": "Atom",
+                        "Type": "Generic",
+                        "Leaves": {
+                          "Generic node0": {
+                            "Depth": "6",
+                            "Value": "2",
+                            "Type": "Number",
+                            "Leaves": {}
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "Generic node1": {
+            "Depth": "2",
+            "Value": ";",
+            "Type": "Semicolon",
+            "Leaves": {}
+          }
+        }
+      }
+    }
+  }
+}

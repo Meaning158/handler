@@ -132,9 +132,9 @@
     <ClCompile Include="Lexer.cpp" />
     <ClCompile Include="Parser.cpp" />
     <ClCompile Include="Token.cpp" />
-    <ClCompile Include="TokenType.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ASTree.h" />
     <ClInclude Include="Lexer.h" />
     <ClInclude Include="Parser.h" />
     <ClInclude Include="Token.h" />
@@ -143,6 +143,9 @@
   <ItemGroup>
     <Text Include="..\x64\Debug\txt.txt.txt" />
     <Text Include="FileName.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FileNameAST.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
